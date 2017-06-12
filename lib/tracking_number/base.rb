@@ -33,7 +33,7 @@ module TrackingNumber
     def valid?
       return false unless valid_format?
       return false unless valid_checksum?
-      return false unless valid_optional_checks?
+      return false unless valid_additional_checks?
       return true
     end
 
@@ -53,7 +53,7 @@ module TrackingNumber
       end
     end
 
-    def valid_optional_checks?
+    def valid_additional_checks?
       true
     end
 
