@@ -1,5 +1,5 @@
 require 'checksum'
-require 'pry'
+
 module TrackingNumber
   class Base
     attr_accessor :tracking_number
