@@ -2,7 +2,7 @@
 
 # Information on validating tracking numbers found here:
 # http://answers.google.com/answers/threadview/id/207899.html
-
+require 'json'
 require 'tracking_number/base'
 require 'tracking_number/usps'
 require 'tracking_number/fedex'
@@ -14,12 +14,17 @@ require 'tracking_number/s10/generic'
 require 'tracking_number/s10/usps'
 require 'tracking_number/s10/royal_mail'
 
-
 if defined?(ActiveModel::EachValidator)
   require 'tracking_number/active_model_validator'
 end
 
 module TrackingNumber
+  File.open(File.join(File.dirname(__FILE__), "s10.json")) do |file|
+    contents = JSON.parse(file.read)
+
+    TrackingNumber.const_set("S10_DATA", contents)
+  end
+
   TYPES = [
     UPS, UPSTest,
     FedExExpress, FedExSmartPost, FedExGround, FedExGround18, FedExGround96,

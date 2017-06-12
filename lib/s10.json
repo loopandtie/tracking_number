@@ -1,0 +1,1506 @@
+{
+  "AF": {
+    "country_name": "Afghanistan",
+    "carrier_name": "Afghan Post",
+    "carrier_key": "afghan_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1928-04-01",
+    "carrier_url": "http://afghanpost.gov.af/"
+  },
+  "AL": {
+    "country_name": "Albania",
+    "carrier_name": "Posta Shqiptare",
+    "carrier_key": "albania_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1922-03-01",
+    "carrier_url": "http://www.postashqiptare.al/"
+  },
+  "DZ": {
+    "country_name": "Algeria",
+    "carrier_name": "Algérie Poste",
+    "carrier_key": "algeria_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1907-10-01",
+    "carrier_url": "http://www.poste.dz/"
+  },
+  "AO": {
+    "country_name": "Angola",
+    "carrier_name": "Correios de Angola",
+    "carrier_key": "angola_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1977-03-03",
+    "carrier_url": "http://www.correiosdeangola.co.ao/"
+  },
+  "AG": {
+    "country_name": "Antigua and Barbuda",
+    "carrier_name": "",
+    "carrier_key": "antigua_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1994-01-20",
+    "carrier_url": ""
+  },
+  "AR": {
+    "country_name": "Argentina",
+    "carrier_name": "Correo Argentino",
+    "carrier_key": "argentina_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1878-04-01",
+    "carrier_url": "http://www.correoargentino.com.ar/"
+  },
+  "AM": {
+    "country_name": "Armenia",
+    "carrier_name": "Haypost - Armenian Postal Service",
+    "carrier_key": "armenia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-09-14",
+    "carrier_url": "http://www.haypost.am/view-lang-eng-page-25.html"
+  },
+  "AU": {
+    "country_name": "Australia",
+    "carrier_name": "Australia Post",
+    "carrier_key": "australia_post",
+    "contribution_units": "20",
+    "date_of_entry_in_upu": "1907-10-01",
+    "carrier_url": "http://www.auspost.com.au/"
+  },
+  "AT": {
+    "country_name": "Austria",
+    "carrier_name": "Österreichische Post AG",
+    "carrier_key": "austria_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.post.at/index.htm"
+  },
+  "AZ": {
+    "country_name": "Azerbaijan",
+    "carrier_name": "Azarpoçt",
+    "carrier_key": "azerbaijan_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1993-04-01",
+    "carrier_url": "http://www.azerpost.az/"
+  },
+  "BS": {
+    "country_name": "Bahamas",
+    "carrier_name": "Bahamas Postal Service",
+    "carrier_key": "bahamas_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1974-04-24",
+    "carrier_url": "http://www.bahamas.gov.bs/postalservice"
+  },
+  "BH": {
+    "country_name": "Bahrain",
+    "carrier_name": "Bahrain Post",
+    "carrier_key": "bahrain_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1973-12-21",
+    "carrier_url": "http://www.transportation.gov.bh/en/modules.php?name=Content&pa=showpage&pid=97"
+  },
+  "BD": {
+    "country_name": "Bangladesh",
+    "carrier_name": "Bangladesh Post Office",
+    "carrier_key": "bangladesh_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1973-02-07",
+    "carrier_url": "http://www.bangladeshpost.gov.bd/INDEX.ASP"
+  },
+  "BB": {
+    "country_name": "Barbados",
+    "carrier_name": "Barbados Postal Service",
+    "carrier_key": "barbados_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1967-11-11",
+    "carrier_url": "http://www.bps.gov.bb/"
+  },
+  "BY": {
+    "country_name": "Belarus",
+    "carrier_name": "Belpochta",
+    "carrier_key": "belarus_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1947-05-13",
+    "carrier_url": "http://www.belpost.by/"
+  },
+  "BE": {
+    "country_name": "Belgium",
+    "carrier_name": "bpost",
+    "carrier_key": "belguim_post",
+    "contribution_units": "15",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.bpost.be"
+  },
+  "BZ": {
+    "country_name": "Belize",
+    "carrier_name": "",
+    "carrier_key": "belize_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1982-10-01",
+    "carrier_url": ""
+  },
+  "BJ": {
+    "country_name": "Benin",
+    "carrier_name": "La Poste du Bénin",
+    "carrier_key": "benin_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1961-04-27",
+    "carrier_url": "http://www.laposte.bj/index1.php?id_page=1"
+  },
+  "BT": {
+    "country_name": "Bhutan",
+    "carrier_name": "Bhutan Post",
+    "carrier_key": "bhutan_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1969-03-07",
+    "carrier_url": "http://www.bhutanpost.com.bt/"
+  },
+  "BO": {
+    "country_name": "Bolivia",
+    "carrier_name": "ECOBOL – Empresa de Correos de Bolivia",
+    "carrier_key": "boliva_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1886-04-01",
+    "carrier_url": "http://www.correosbolivia.com/"
+  },
+  "BA": {
+    "country_name": "Bosnia and Herzegovina",
+    "carrier_name": "JP BH POŠTA d.o.o. SarajevoPOŠTE SRPSKEHrvatska posta d.o.o. Mostar",
+    "carrier_key": "bosnia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1993-01-26",
+    "carrier_url": "http://www.bhp.ba/"
+  },
+  "BW": {
+    "country_name": "Botswana",
+    "carrier_name": "BotswanaPost",
+    "carrier_key": "botswana_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1968-01-12",
+    "carrier_url": "http://www.botspost.co.bw/"
+  },
+  "BR": {
+    "country_name": "Brazil",
+    "carrier_name": "CORREIOS",
+    "carrier_key": "brazil_post",
+    "contribution_units": "20",
+    "date_of_entry_in_upu": "1877-07-01",
+    "carrier_url": "http://www.correios.com.br/"
+  },
+  "BN": {
+    "country_name": "Brunei Darussalam",
+    "carrier_name": "Brunei Postal Services",
+    "carrier_key": "brunei_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1985-01-15",
+    "carrier_url": "http://www.post.gov.bn/"
+  },
+  "BG": {
+    "country_name": "Bulgaria (Rep.)",
+    "carrier_name": "Bulgarian Posts",
+    "carrier_key": "bulgaria_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1879-07-01",
+    "carrier_url": "http://www.bgpost.bg/?cid=3"
+  },
+  "BF": {
+    "country_name": "Burkina Faso",
+    "carrier_name": "SONAPOST",
+    "carrier_key": "burkina_faso_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1963-03-29",
+    "carrier_url": "http://www.sonapost.bf/"
+  },
+  "BI": {
+    "country_name": "Burundi",
+    "carrier_name": "RNP – Régie nationale des postes",
+    "carrier_key": "burundi_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1963-04-06",
+    "carrier_url": "http://www.poste.bi/"
+  },
+  "KH": {
+    "country_name": "Cambodia",
+    "carrier_name": "",
+    "carrier_key": "cambodia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1951-12-21",
+    "carrier_url": ""
+  },
+  "CM": {
+    "country_name": "Cameroon",
+    "carrier_name": "CAMPOST – Cameroon Postal Services",
+    "carrier_key": "cameroon_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1960-07-26",
+    "carrier_url": "http://campostonline.com/"
+  },
+  "CA": {
+    "country_name": "Canada",
+    "carrier_name": "Canada Post",
+    "carrier_key": "canada_post",
+    "contribution_units": "40",
+    "date_of_entry_in_upu": "1878-07-01",
+    "carrier_url": "http://www.canadapost.ca/cpo/mc/languageswitcher.jsf"
+  },
+  "CV": {
+    "country_name": "Cape Verde",
+    "carrier_name": "Correios de Cabo Verde",
+    "carrier_key": "cape_verde_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1976-09-30",
+    "carrier_url": "http://www.correios.cv/"
+  },
+  "CF": {
+    "country_name": "Central African Rep.",
+    "carrier_name": "",
+    "carrier_key": "central_african_rep_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1961-06-28",
+    "carrier_url": ""
+  },
+  "TD": {
+    "country_name": "Chad",
+    "carrier_name": "",
+    "carrier_key": "chad_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1961-06-23",
+    "carrier_url": ""
+  },
+  "CL": {
+    "country_name": "Chile",
+    "carrier_name": "Correos de Chile",
+    "carrier_key": "chile_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1881-04-01",
+    "carrier_url": "http://www.correos.cl/SitePages/home.aspx"
+  },
+  "CN": {
+    "country_name": "China (People's Rep.)",
+    "carrier_name": "China Post",
+    "carrier_key": "china_post",
+    "contribution_units": "25",
+    "date_of_entry_in_upu": "1914-03-01",
+    "carrier_url": "http://www.chinapost.com.cn/36/"
+  },
+  "CO": {
+    "country_name": "Colombia",
+    "carrier_name": "4-72 La Red Postal de Colombia",
+    "carrier_key": "colombia_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1881-07-01",
+    "carrier_url": "http://www.4-72.com.co/"
+  },
+  "KM": {
+    "country_name": "Comoros",
+    "carrier_name": "Societé Nationale des Postes et des Services Financiers",
+    "carrier_key": "comoros_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1976-07-29",
+    "carrier_url": "http://www.lapostecomores.com/bureaux.php"
+  },
+  "CG": {
+    "country_name": "Congo (Rep.)",
+    "carrier_name": "",
+    "carrier_key": "congo_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1961-05-23",
+    "carrier_url": ""
+  },
+  "CR": {
+    "country_name": "Costa Rica",
+    "carrier_name": "Correos de Costa Rica",
+    "carrier_key": "costa_rica_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1883-01-01",
+    "carrier_url": "http://www.correos.go.cr/"
+  },
+  "CI": {
+    "country_name": "Côte d'Ivoire (Rep.)",
+    "carrier_name": "La Poste de Côte d’Ivoire",
+    "carrier_key": "ivory_coast_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1961-05-23",
+    "carrier_url": "http://www.laposte.ci/"
+  },
+  "HR": {
+    "country_name": "Croatia",
+    "carrier_name": "Hrvatska Posta - Croatian Post",
+    "carrier_key": "croatia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-07-20",
+    "carrier_url": "http://www.posta.hr/"
+  },
+  "CU": {
+    "country_name": "Cuba",
+    "carrier_name": "",
+    "carrier_key": "cuba_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1902-10-04",
+    "carrier_url": ""
+  },
+  "CY": {
+    "country_name": "Cyprus",
+    "carrier_name": "Cyprus Post",
+    "carrier_key": "cyprus_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1961-11-23",
+    "carrier_url": "http://www.mcw.gov.cy/mcw/dps/dps.nsf/index_en/index_en?OpenDocument"
+  },
+  "CZ": {
+    "country_name": "Czech Rep.",
+    "carrier_name": "Česká Pošta",
+    "carrier_key": "czech_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1993-03-18",
+    "carrier_url": "http://www.cpost.cz/"
+  },
+  "KP": {
+    "country_name": "Dem People's Rep. of Korea",
+    "carrier_name": "",
+    "carrier_key": "north_korea_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1974-06-06",
+    "carrier_url": ""
+  },
+  "CD": {
+    "country_name": "Democratic Republic of the Congo",
+    "carrier_name": "",
+    "carrier_key": "congo_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1886-01-01",
+    "carrier_url": ""
+  },
+  "DK": {
+    "country_name": "Denmark",
+    "carrier_name": "Post Danmark",
+    "carrier_key": "denmark_post",
+    "contribution_units": "10",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.postdanmark.dk/index.jsp"
+  },
+  "DJ": {
+    "country_name": "Djibouti",
+    "carrier_name": "",
+    "carrier_key": "djibouti_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1978-06-06",
+    "carrier_url": ""
+  },
+  "DM": {
+    "country_name": "Dominica",
+    "carrier_name": "General Post Office",
+    "carrier_key": "dominica_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1980-01-31",
+    "carrier_url": "http://publicworks.gov.dm/index.php/divisions/general-post-office/20-gpo-about-us"
+  },
+  "DO": {
+    "country_name": "Dominican Republic",
+    "carrier_name": "INPOSDOM – Instituto Postal Dominicano",
+    "carrier_key": "dominican_republic_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1880-10-01",
+    "carrier_url": "http://www.inposdom.gob.do/"
+  },
+  "EC": {
+    "country_name": "Ecuador",
+    "carrier_name": "Correos del Ecuador",
+    "carrier_key": "ecuador_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1880-07-01",
+    "carrier_url": "http://www.correosdelecuador.com.ec/pages/index.php"
+  },
+  "EG": {
+    "country_name": "Egypt",
+    "carrier_name": "Egypt Post",
+    "carrier_key": "egypt_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.egyptpost.org/"
+  },
+  "SV": {
+    "country_name": "El Salvador",
+    "carrier_name": "Correos de El Salvador",
+    "carrier_key": "el_salvador_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1879-04-01",
+    "carrier_url": "http://www.correos.gob.sv/"
+  },
+  "GQ": {
+    "country_name": "Equatorial Guinea",
+    "carrier_name": "",
+    "carrier_key": "guinea_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1970-07-24",
+    "carrier_url": ""
+  },
+  "ER": {
+    "country_name": "Eritrea",
+    "carrier_name": "Eritrean Postal Service",
+    "carrier_key": "eritrea_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1993-08-19",
+    "carrier_url": "http://www.eriposta.com/"
+  },
+  "EE": {
+    "country_name": "Estonia",
+    "carrier_name": "Eesti Post",
+    "carrier_key": "eesti_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-04-30",
+    "carrier_url": "http://www.post.ee/index.php?lang=en"
+  },
+  "ET": {
+    "country_name": "Ethiopia",
+    "carrier_name": "Ethiopian postal service",
+    "carrier_key": "ethiopian_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1908-11-01",
+    "carrier_url": "http://www.ethiopostal.com/"
+  },
+  "FJ": {
+    "country_name": "Fiji",
+    "carrier_name": "Post Fiji",
+    "carrier_key": "fiji_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1971-06-18",
+    "carrier_url": "http://www.postfiji.com.fj/"
+  },
+  "FI": {
+    "country_name": "Finland (including the Åland Islands)",
+    "carrier_name": "Posti LtdPosten Åland Ab",
+    "carrier_key": "finland_post",
+    "contribution_units": "10",
+    "date_of_entry_in_upu": "1918-02-12",
+    "carrier_url": "http://www.posti.fi/index-en.html"
+  },
+  "FR": {
+    "country_name": "France",
+    "carrier_name": "La Poste",
+    "carrier_key": "france_post",
+    "contribution_units": "50",
+    "date_of_entry_in_upu": "1876-01-01",
+    "carrier_url": "http://www.laposte.fr/"
+  },
+  "GA": {
+    "country_name": "Gabon",
+    "carrier_name": "La Poste SA",
+    "carrier_key": "gabon_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1961-07-17",
+    "carrier_url": "http://www.laposte.ga/"
+  },
+  "GM": {
+    "country_name": "Gambia",
+    "carrier_name": "Gambia Postal services Corporation",
+    "carrier_key": "gambia_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1974-10-09",
+    "carrier_url": "http://www.gampost.gm/"
+  },
+  "GE": {
+    "country_name": "Georgia",
+    "carrier_name": "Georgian Post",
+    "carrier_key": "georgia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1993-04-01",
+    "carrier_url": "http://www.georgianpost.ge/index.php?lang=eng&page=1"
+  },
+  "DE": {
+    "country_name": "Germany",
+    "carrier_name": "Deutsche Post",
+    "carrier_key": "germany_post",
+    "contribution_units": "45",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.deutschepost.de/dpag?xmlFile=828"
+  },
+  "GH": {
+    "country_name": "Ghana",
+    "carrier_name": "Ghana Post",
+    "carrier_key": "ghana_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1957-10-10",
+    "carrier_url": "http://www.ghanapostgh.com/"
+  },
+  "GB": {
+    "country_name": "Great Britain",
+    "carrier_name": "Royal Mail Group",
+    "carrier_key": "great_britain_post",
+    "contribution_units": "50",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.royalmail.com/portal/rm"
+  },
+  "GR": {
+    "country_name": "Greece",
+    "carrier_name": "Hellenic Post ELTA",
+    "carrier_key": "greece_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.elta.gr/en-us/home.aspx"
+  },
+  "GD": {
+    "country_name": "Grenada",
+    "carrier_name": "Grenada Postal Corporation",
+    "carrier_key": "grenada_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1978-01-30",
+    "carrier_url": "http://www.grenadapostal.com/index.html"
+  },
+  "GT": {
+    "country_name": "Guatemala",
+    "carrier_name": "El Correo",
+    "carrier_key": "guatemala_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1881-08-01",
+    "carrier_url": "http://www.elcorreo.com.gt/elcorreo/index.php"
+  },
+  "GN": {
+    "country_name": "Guinea",
+    "carrier_name": "",
+    "carrier_key": "guinea_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1959-05-06",
+    "carrier_url": ""
+  },
+  "GW": {
+    "country_name": "Guinea-Bissau",
+    "carrier_name": "",
+    "carrier_key": "guinea_bissau_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1974-05-30",
+    "carrier_url": ""
+  },
+  "GY": {
+    "country_name": "Guyana",
+    "carrier_name": "Guyana Post Office Corporation",
+    "carrier_key": "guyana_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1967-03-22",
+    "carrier_url": "http://guypost.gy/gpoc/"
+  },
+  "HT": {
+    "country_name": "Haiti",
+    "carrier_name": "Office des Postes d’Haiti",
+    "carrier_key": "haiti_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1881-07-01",
+    "carrier_url": "http://postehaiti.gouv.ht/"
+  },
+  "HN": {
+    "country_name": "Honduras (Rep.)",
+    "carrier_name": "Honducor",
+    "carrier_key": "honduras_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1879-04-01",
+    "carrier_url": "http://www.honducor.gob.hn/"
+  },
+  "HU": {
+    "country_name": "Hungary",
+    "carrier_name": "Magyar Posta",
+    "carrier_key": "hungary_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://posta.hu/"
+  },
+  "IS": {
+    "country_name": "Iceland",
+    "carrier_name": "Íslandspóstur hf",
+    "carrier_key": "iceland_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1919-11-15",
+    "carrier_url": "http://www.postur.is/"
+  },
+  "IN": {
+    "country_name": "India",
+    "carrier_name": "India Post",
+    "carrier_key": "india_post",
+    "contribution_units": "20",
+    "date_of_entry_in_upu": "1876-07-01",
+    "carrier_url": "http://www.indiapost.gov.in/"
+  },
+  "ID": {
+    "country_name": "Indonesia",
+    "carrier_name": "Pos Indonesia",
+    "carrier_key": "indonesia_post",
+    "contribution_units": "10",
+    "date_of_entry_in_upu": "1877-05-01",
+    "carrier_url": "http://www.posindonesia.co.id/"
+  },
+  "IR": {
+    "country_name": "Iran (Islamic Rep.)",
+    "carrier_name": "Islamic Republic of Iran Post Co.",
+    "carrier_key": "iran_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1877-09-01",
+    "carrier_url": "http://www.post.ir/Homepage.aspx?site=PostPortal&lang=fa-IR&tabid=0"
+  },
+  "IQ": {
+    "country_name": "Iraq",
+    "carrier_name": "Iraqi Post",
+    "carrier_key": "iraq_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1929-04-22",
+    "carrier_url": "http://www.iraqipost.net/"
+  },
+  "IE": {
+    "country_name": "Ireland",
+    "carrier_name": "AN Post - regulatory and International affairs Unit",
+    "carrier_key": "ireland_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1923-09-06",
+    "carrier_url": "http://www.anpost.ie/AnPost/"
+  },
+  "IL": {
+    "country_name": "Israel",
+    "carrier_name": "Israel Post",
+    "carrier_key": "israel_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1949-12-24",
+    "carrier_url": "http://www.israelpost.co.il/"
+  },
+  "IT": {
+    "country_name": "Italy",
+    "carrier_name": "Poste Italiane",
+    "carrier_key": "italy_post",
+    "contribution_units": "25",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.poste.it/"
+  },
+  "JM": {
+    "country_name": "Jamaica",
+    "carrier_name": "Jamaica Post",
+    "carrier_key": "jamaica_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1963-08-29",
+    "carrier_url": "http://www.jamaicapost.gov.jm/"
+  },
+  "JP": {
+    "country_name": "Japan",
+    "carrier_name": "Japan Post",
+    "carrier_key": "japan_post",
+    "contribution_units": "50",
+    "date_of_entry_in_upu": "1877-06-01",
+    "carrier_url": "http://www.japanpost.jp/en/"
+  },
+  "JO": {
+    "country_name": "Jordan",
+    "carrier_name": "Jordan Post",
+    "carrier_key": "jordan_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1947-05-16",
+    "carrier_url": "http://www.jordanpost.com.jo/"
+  },
+  "KZ": {
+    "country_name": "Kazakhstan",
+    "carrier_name": "Kazpost",
+    "carrier_key": "kazakhstan_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-08-27",
+    "carrier_url": "http://www.kazpost.kz/en/"
+  },
+  "KE": {
+    "country_name": "Kenya",
+    "carrier_name": "POSTA KENYA",
+    "carrier_key": "kenya_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1964-10-27",
+    "carrier_url": "http://www.posta.co.ke/"
+  },
+  "KI": {
+    "country_name": "Kiribati",
+    "carrier_name": "",
+    "carrier_key": "kiribati_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1984-08-14",
+    "carrier_url": ""
+  },
+  "KR": {
+    "country_name": "Korea (Rep.)",
+    "carrier_name": "Korea Post",
+    "carrier_key": "south_korea_post",
+    "contribution_units": "15",
+    "date_of_entry_in_upu": "1900-01-01",
+    "carrier_url": "http://www.koreapost.go.kr/"
+  },
+  "KW": {
+    "country_name": "Kuwait",
+    "carrier_name": "",
+    "carrier_key": "kuwait_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1960-02-16",
+    "carrier_url": ""
+  },
+  "KG": {
+    "country_name": "Kyrgyzstan",
+    "carrier_name": "Kyrgyz PostKyrgyz Express Post",
+    "carrier_key": "kyrgyzstan_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1993-01-26",
+    "carrier_url": "http://kyrgyzpost.kg/"
+  },
+  "LA": {
+    "country_name": "Lao People's Dem. Rep.",
+    "carrier_name": "",
+    "carrier_key": "laos_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1952-05-20",
+    "carrier_url": ""
+  },
+  "LV": {
+    "country_name": "Latvia",
+    "carrier_name": "Latvia Post",
+    "carrier_key": "latvia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-06-17",
+    "carrier_url": "http://www.pasts.lv/en/"
+  },
+  "LB": {
+    "country_name": "Lebanon",
+    "carrier_name": "LibanPost",
+    "carrier_key": "lebanon_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1946-05-15",
+    "carrier_url": "http://www.libanpost.com.lb/"
+  },
+  "LS": {
+    "country_name": "Lesotho",
+    "carrier_name": "Lesotho Post",
+    "carrier_key": "lesotho_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1967-09-06",
+    "carrier_url": "http://lesothopost.org.ls/"
+  },
+  "LR": {
+    "country_name": "Liberia",
+    "carrier_name": "Ministry of Posts and Telecommunications",
+    "carrier_key": "liberia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1879-04-01",
+    "carrier_url": "http://www.mopt.gov.lr/"
+  },
+  "LY": {
+    "country_name": "Libya",
+    "carrier_name": "Libya Post",
+    "carrier_key": "libya_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1952-06-04",
+    "carrier_url": "http://libyapost.ly/en/"
+  },
+  "LI": {
+    "country_name": "Liechtenstein",
+    "carrier_name": "Liechtensteinische Post AG",
+    "carrier_key": "liechtenstein_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1962-04-13",
+    "carrier_url": "http://www.post.li/"
+  },
+  "LT": {
+    "country_name": "Lithuania",
+    "carrier_name": "Lietuvos Pastas",
+    "carrier_key": "lithuania_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-01-10",
+    "carrier_url": "http://www.post.lt/en/"
+  },
+  "LU": {
+    "country_name": "Luxembourg",
+    "carrier_name": "Post",
+    "carrier_key": "luxembourg_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.post.lu/"
+  },
+  "MG": {
+    "country_name": "Madagascar",
+    "carrier_name": "PAOSITRA MALAGASY",
+    "carrier_key": "madagascar_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1961-11-02",
+    "carrier_url": "http://www.mtpc.gov.mg/"
+  },
+  "MW": {
+    "country_name": "Malawi",
+    "carrier_name": "Malawi Posts Corporation",
+    "carrier_key": "malawi_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1966-10-25",
+    "carrier_url": "http://www.malawiposts.com/"
+  },
+  "MY": {
+    "country_name": "Malaysia",
+    "carrier_name": "Pos Malaysia",
+    "carrier_key": "malaysia_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1958-01-17",
+    "carrier_url": "http://www.pos.com.my/pos/homepage.aspx"
+  },
+  "MV": {
+    "country_name": "Maldives",
+    "carrier_name": "Maldives Post",
+    "carrier_key": "maldives_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1967-08-15",
+    "carrier_url": "http://maldivespost.com/"
+  },
+  "ML": {
+    "country_name": "Mali",
+    "carrier_name": "Office national des postes",
+    "carrier_key": "mali_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1961-04-21",
+    "carrier_url": "http://www.laposte.ml/"
+  },
+  "MT": {
+    "country_name": "Malta",
+    "carrier_name": "Malta Post",
+    "carrier_key": "malta_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1965-05-21",
+    "carrier_url": "http://www.maltapost.com/home?l=1"
+  },
+  "MR": {
+    "country_name": "Mauritania",
+    "carrier_name": "MAURIPOST – Société Mauritanienne des Postes",
+    "carrier_key": "mauritania_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1967-03-22",
+    "carrier_url": "http://www.mauripost.mr/"
+  },
+  "MU": {
+    "country_name": "Mauritius",
+    "carrier_name": "Mauritius Post",
+    "carrier_key": "mauritius_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1969-08-29",
+    "carrier_url": "http://www.mauritiuspost.mu/"
+  },
+  "MX": {
+    "country_name": "Mexico",
+    "carrier_name": "Correos de México",
+    "carrier_key": "mexico_post",
+    "contribution_units": "10",
+    "date_of_entry_in_upu": "1879-04-01",
+    "carrier_url": "http://www.correosdemexico.gob.mx/"
+  },
+  "MD": {
+    "country_name": "Moldova",
+    "carrier_name": "Posta Moldovei",
+    "carrier_key": "moldova_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-11-16",
+    "carrier_url": "http://www.posta.md/en.html"
+  },
+  "MC": {
+    "country_name": "Monaco",
+    "carrier_name": "La Poste Monaco",
+    "carrier_key": "monaco_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1955-10-12",
+    "carrier_url": "http://www.lapostemonaco.mc/"
+  },
+  "MN": {
+    "country_name": "Mongolia",
+    "carrier_name": "Mongol Post - Монгол шуудан компани",
+    "carrier_key": "mongola_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1963-08-24",
+    "carrier_url": "http://www.mongolpost.mn/mongolpost/en"
+  },
+  "ME": {
+    "country_name": "Montenegro (Rep.)",
+    "carrier_name": "Pošta Crne Gore",
+    "carrier_key": "montenegro_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "2006-07-26",
+    "carrier_url": "http://www.postacg.me/main.php"
+  },
+  "MA": {
+    "country_name": "Morocco",
+    "carrier_name": "Barid Al-Maghrib – Poste Maroc",
+    "carrier_key": "morocco_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1920-10-01",
+    "carrier_url": "http://www.poste.ma/wps/portal/GPM/Accueil"
+  },
+  "MZ": {
+    "country_name": "Mozambique",
+    "carrier_name": "Correios de Moçambique",
+    "carrier_key": "mozambique_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1978-10-11",
+    "carrier_url": "http://www.correios.co.mz/"
+  },
+  "MM": {
+    "country_name": "Myanmar",
+    "carrier_name": "",
+    "carrier_key": "myanmar_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1949-10-04",
+    "carrier_url": ""
+  },
+  "NA": {
+    "country_name": "Namibia",
+    "carrier_name": "NAM Post",
+    "carrier_key": "namibia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-04-30",
+    "carrier_url": "https://www.nampost.com.na/"
+  },
+  "NR": {
+    "country_name": "Nauru",
+    "carrier_name": "",
+    "carrier_key": "nauru_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1969-04-17",
+    "carrier_url": ""
+  },
+  "NP": {
+    "country_name": "Nepal",
+    "carrier_name": "",
+    "carrier_key": "nepal_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1956-10-11",
+    "carrier_url": ""
+  },
+  "NL": {
+    "country_name": "Netherlands",
+    "carrier_name": "PostNL",
+    "carrier_key": "netherlands_post",
+    "contribution_units": "15",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.postnl.nl/voorthuis/"
+  },
+  "NZ": {
+    "country_name": "New Zealand (including the Ross Dependency)",
+    "carrier_name": "New Zealand Post",
+    "carrier_key": "new_zealand_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1907-10-01",
+    "carrier_url": "http://www.nzpost.co.nz/"
+  },
+  "NI": {
+    "country_name": "Nicaragua",
+    "carrier_name": "Correos de Nicaragua",
+    "carrier_key": "nicaragua_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1882-05-01",
+    "carrier_url": "http://www.correos.gob.ni/"
+  },
+  "NE": {
+    "country_name": "Niger",
+    "carrier_name": "Niger Poste",
+    "carrier_key": "niger_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1961-06-12",
+    "carrier_url": "http://www.nigerposte.net/"
+  },
+  "NG": {
+    "country_name": "Nigeria",
+    "carrier_name": "Nigerian Postal Service",
+    "carrier_key": "nigerian_post",
+    "contribution_units": "10",
+    "date_of_entry_in_upu": "1961-07-10",
+    "carrier_url": "http://www.nipost.gov.ng/"
+  },
+  "NO": {
+    "country_name": "Norway",
+    "carrier_name": "Posten",
+    "carrier_key": "norway_post",
+    "contribution_units": "10",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.posten.no/"
+  },
+  "OM": {
+    "country_name": "Oman",
+    "carrier_name": "Oman Post",
+    "carrier_key": "oman_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1971-08-17",
+    "carrier_url": "http://www.omanpost.om/Portals/2/Skins/skins//tabid/64/Default.aspx"
+  },
+  "PK": {
+    "country_name": "Pakistan",
+    "carrier_name": "Pakistan Post",
+    "carrier_key": "pakistan_post",
+    "contribution_units": "10",
+    "date_of_entry_in_upu": "1947-11-10",
+    "carrier_url": "http://www.pakpost.gov.pk/"
+  },
+  "PA": {
+    "country_name": "Panama (Rep.)",
+    "carrier_name": "Correos de Panamá",
+    "carrier_key": "panama_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1904-06-11",
+    "carrier_url": "http://www.correospanama.gob.pa/"
+  },
+  "PG": {
+    "country_name": "Papua New Guinea",
+    "carrier_name": "Post PNG",
+    "carrier_key": "papua_new_guinea_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1976-06-04",
+    "carrier_url": "http://www.postpng.com.pg/"
+  },
+  "PY": {
+    "country_name": "Paraguay",
+    "carrier_name": "Correo Paraguayo",
+    "carrier_key": "paraguay_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1881-07-01",
+    "carrier_url": "http://www.correoparaguayo.gov.py/"
+  },
+  "PE": {
+    "country_name": "Peru",
+    "carrier_name": "SERPOST – Servicios Postales del Perú",
+    "carrier_key": "peru_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1879-04-01",
+    "carrier_url": "http://www.serpost.com.pe/"
+  },
+  "PH": {
+    "country_name": "Philippines",
+    "carrier_name": "PHLPOST – Philippine Postal Corporation",
+    "carrier_key": "phillipines_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1922-01-01",
+    "carrier_url": "https://www.phlpost.gov.ph/index.php"
+  },
+  "PL": {
+    "country_name": "Poland",
+    "carrier_name": "Poczta Polska",
+    "carrier_key": "poland_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1919-05-01",
+    "carrier_url": "http://www.poczta-polska.pl/"
+  },
+  "PT": {
+    "country_name": "Portugal",
+    "carrier_name": "CTT - Correios",
+    "carrier_key": "portugal_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.ctt.pt/fectt/wcmservlet/ctt/landingpage.html"
+  },
+  "QA": {
+    "country_name": "Qatar",
+    "carrier_name": "Qatar Post",
+    "carrier_key": "qatar_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1969-01-31",
+    "carrier_url": "http://www.qpost.com.qa/"
+  },
+  "RO": {
+    "country_name": "Romania",
+    "carrier_name": "Posta Romana",
+    "carrier_key": "romania_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.posta-romana.ro/"
+  },
+  "RU": {
+    "country_name": "Russian Federation",
+    "carrier_name": "Russian Post",
+    "carrier_key": "russian_post",
+    "contribution_units": "15",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.russianpost.ru/"
+  },
+  "RW": {
+    "country_name": "Rwanda",
+    "carrier_name": "National Post Office (Iposita)",
+    "carrier_key": "rwanda_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1963-04-06",
+    "carrier_url": "http://i-posita.rw/spip.php?article1"
+  },
+  "KN": {
+    "country_name": "Saint Christopher (Saint Kitts) and Nevis",
+    "carrier_name": "St. Kitts &amp; Nevis Postal Services",
+    "carrier_key": "st_kitts_and_nevis_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1988-01-11",
+    "carrier_url": "http://www.post.gov.kn/"
+  },
+  "LC": {
+    "country_name": "Saint Lucia",
+    "carrier_name": "Saint Lucia Postal Service",
+    "carrier_key": "saint_lucia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1980-07-10",
+    "carrier_url": "http://www.stluciapostal.com/"
+  },
+  "VC": {
+    "country_name": "Saint Vincent and the Grenadines",
+    "carrier_name": "SVG Postal Corporation",
+    "carrier_key": "svg_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1981-02-03",
+    "carrier_url": "http://www.svgpost.gov.vc/"
+  },
+  "WS": {
+    "country_name": "Samoa",
+    "carrier_name": "Samoa Post",
+    "carrier_key": "samoa_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1989-08-09",
+    "carrier_url": "http://www.samoapost.ws/"
+  },
+  "SM": {
+    "country_name": "San Marino",
+    "carrier_name": "Poste San Marino",
+    "carrier_key": "san_marino_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1915-07-01",
+    "carrier_url": "http://www.poste.sm/on-line/home.html"
+  },
+  "ST": {
+    "country_name": "Sao Tome and Principe",
+    "carrier_name": "Correios de São Tomé e Príncipe",
+    "carrier_key": "sao_tome_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1977-08-22",
+    "carrier_url": "http://www.inh.st/correios.st.htm"
+  },
+  "SA": {
+    "country_name": "Saudi Arabia",
+    "carrier_name": "Saudi Post",
+    "carrier_key": "saudi_post",
+    "contribution_units": "20",
+    "date_of_entry_in_upu": "1927-01-01",
+    "carrier_url": "http://www.sp.com.sa"
+  },
+  "SN": {
+    "country_name": "Senegal",
+    "carrier_name": "PosteFinances",
+    "carrier_key": "senegal_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1961-06-14",
+    "carrier_url": "http://www.postefinances.sn/index.php"
+  },
+  "RS": {
+    "country_name": "Serbia (Rep.)",
+    "carrier_name": "PTT Communications \"Srbija\"",
+    "carrier_key": "serbia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "2001-06-18",
+    "carrier_url": "http://www.posta.rs/"
+  },
+  "SC": {
+    "country_name": "Seychelles",
+    "carrier_name": "Seychelles Postal Service",
+    "carrier_key": "seychelles_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1977-10-07",
+    "carrier_url": "http://www.seychellespost.gov.sc/"
+  },
+  "SL": {
+    "country_name": "Sierra Leone",
+    "carrier_name": "Sierra Leone Postal Services",
+    "carrier_key": "sierra_leone_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1962-01-29",
+    "carrier_url": "http://www.salpost.sl/"
+  },
+  "SG": {
+    "country_name": "Singapore",
+    "carrier_name": "SingPost",
+    "carrier_key": "singapore_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1966-01-08",
+    "carrier_url": "http://www.singpost.com.sg/"
+  },
+  "SK": {
+    "country_name": "Slovakia",
+    "carrier_name": "Slovenská Posta",
+    "carrier_key": "slovakia_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1993-03-18",
+    "carrier_url": "http://www.posta.sk/en"
+  },
+  "SI": {
+    "country_name": "Slovenia",
+    "carrier_name": "Posta Slovenije d.o.o.",
+    "carrier_key": "slovenia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1992-08-27",
+    "carrier_url": "http://www.posta.si/"
+  },
+  "SB": {
+    "country_name": "Solomon Islands",
+    "carrier_name": "",
+    "carrier_key": "solomon_islands_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1984-05-04",
+    "carrier_url": ""
+  },
+  "SO": {
+    "country_name": "Somalia",
+    "carrier_name": "",
+    "carrier_key": "somalia_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1959-04-01",
+    "carrier_url": ""
+  },
+  "ZA": {
+    "country_name": "South Africa",
+    "carrier_name": "South African Post Office",
+    "carrier_key": "south_african_post",
+    "contribution_units": "10",
+    "date_of_entry_in_upu": "1994-08-22",
+    "carrier_url": "http://www.sapo.co.za/"
+  },
+  "SS": {
+    "country_name": "South Sudan (Rep.)",
+    "carrier_name": "",
+    "carrier_key": "south_sudan_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "2011-10-04",
+    "carrier_url": ""
+  },
+  "ES": {
+    "country_name": "Spain",
+    "carrier_name": "Correos y Telégrafos",
+    "carrier_key": "spain_post",
+    "contribution_units": "25",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.correos.es/dinamic/plantillas/home1.asp"
+  },
+  "LK": {
+    "country_name": "Sri Lanka",
+    "carrier_name": "Sri Lanka Post",
+    "carrier_key": "sri_lanka_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1949-07-13",
+    "carrier_url": "http://www.slpost.gov.lk/"
+  },
+  "SD": {
+    "country_name": "Sudan",
+    "carrier_name": "Sudapost",
+    "carrier_key": "sudan_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1956-07-27",
+    "carrier_url": "http://sudapost.sd/index.php/en/"
+  },
+  "SR": {
+    "country_name": "Suriname",
+    "carrier_name": "SURPOST",
+    "carrier_key": "suriname_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1976-04-20",
+    "carrier_url": "http://www.surpost.com/surpost2/index.php"
+  },
+  "SZ": {
+    "country_name": "Swaziland",
+    "carrier_name": "Swaziland Posts &amp; Telecommunications Corporation",
+    "carrier_key": "swaziland_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1969-11-07",
+    "carrier_url": "http://www.sptc.co.sz/index.php"
+  },
+  "SE": {
+    "country_name": "Sweden",
+    "carrier_name": "Posten Sweden Post",
+    "carrier_key": "sweden_post",
+    "contribution_units": "15",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.posten.se/"
+  },
+  "CH": {
+    "country_name": "Switzerland",
+    "carrier_name": "La Poste Suisse",
+    "carrier_key": "switzerland_post",
+    "contribution_units": "15",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.poste.ch/"
+  },
+  "SY": {
+    "country_name": "Syrian Arab Rep.",
+    "carrier_name": "Syrian Post",
+    "carrier_key": "syrian_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1946-05-15",
+    "carrier_url": "http://www.syrianpost.gov.sy/"
+  },
+  "TJ": {
+    "country_name": "Tajikistan",
+    "carrier_name": "",
+    "carrier_key": "tajikistan_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1994-06-09",
+    "carrier_url": ""
+  },
+  "TZ": {
+    "country_name": "Tanzania (United Rep.)",
+    "carrier_name": "Tanzania Posts Corporation",
+    "carrier_key": "tanzania_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1963-03-29",
+    "carrier_url": "http://www.posta.co.tz/"
+  },
+  "TH": {
+    "country_name": "Thailand",
+    "carrier_name": "Thailand Post",
+    "carrier_key": "thailand_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1885-07-01",
+    "carrier_url": "http://www.thailandpost.com/"
+  },
+  "MK": {
+    "country_name": "The former Yugoslav Republic of Macedonia",
+    "carrier_name": "Macedonian Post & Telecommunications",
+    "carrier_key": "macedonian_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1993-07-12",
+    "carrier_url": "http://www.posta.com.mk/"
+  },
+  "TG": {
+    "country_name": "Togo",
+    "carrier_name": "La Poste du Togo",
+    "carrier_key": "togo_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1962-03-21",
+    "carrier_url": "http://www.laposte.tg/"
+  },
+  "TO": {
+    "country_name": "Tonga (including Niuafo'ou)",
+    "carrier_name": "Tonga Post",
+    "carrier_key": "tonga_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1972-01-26",
+    "carrier_url": "http://tongapost.to/"
+  },
+  "TT": {
+    "country_name": "Trinidad and Tobago",
+    "carrier_name": "Trinidad and Tobago Postal Corporation",
+    "carrier_key": "trinidad_and_tobago_postal_corporation",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1963-06-15",
+    "carrier_url": "http://www.ttpost.net/"
+  },
+  "TN": {
+    "country_name": "Tunisia",
+    "carrier_name": "La Poste Tunisienne",
+    "carrier_key": "tunisia_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1888-07-01",
+    "carrier_url": "http://www.poste.tn/"
+  },
+  "TR": {
+    "country_name": "Turkey",
+    "carrier_name": "Turkey Post",
+    "carrier_key": "turkey_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.ptt.gov.tr/"
+  },
+  "TM": {
+    "country_name": "Turkmenistan",
+    "carrier_name": "Turkmenpost",
+    "carrier_key": "turkmenistan_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1993-01-26",
+    "carrier_url": "http://www.ems.gov.tm/"
+  },
+  "UG": {
+    "country_name": "Uganda",
+    "carrier_name": "Posta Uganda",
+    "carrier_key": "uganda_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1964-02-13",
+    "carrier_url": "http://www.ugapost.co.ug/"
+  },
+  "UA": {
+    "country_name": "Ukraine",
+    "carrier_name": "Ukrposhta",
+    "carrier_key": "ukraine_post",
+    "contribution_units": "5",
+    "date_of_entry_in_upu": "1947-05-13",
+    "carrier_url": "http://www.ukrposhta.com/www/upost_en.nsf"
+  },
+  "AE": {
+    "country_name": "United Arab Emirates",
+    "carrier_name": "Emirates Post",
+    "carrier_key": "uae_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1973-03-30",
+    "carrier_url": "http://www.emiratespost.com/content/english/index.jsp;jsessionid=35fbe352a6c441a491929d81d54fa0c6"
+  },
+  "US": {
+    "country_name": "United States of America",
+    "carrier_name": "United States Postal Service",
+    "carrier_key": "usps",
+    "contribution_units": "50",
+    "date_of_entry_in_upu": "1875-07-01",
+    "carrier_url": "http://www.usps.com/"
+  },
+  "UY": {
+    "country_name": "Uruguay",
+    "carrier_name": "Correo Uruguayo",
+    "carrier_key": "uraguay_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1880-07-01",
+    "carrier_url": "http://www.correo.com.uy/"
+  },
+  "UZ": {
+    "country_name": "Uzbekistan",
+    "carrier_name": "Post of Uzbekistan",
+    "carrier_key": "uzbekistan_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1994-02-24",
+    "carrier_url": "http://www.pochta.uz/?lang=eng&data=about"
+  },
+  "VU": {
+    "country_name": "Vanuatu",
+    "carrier_name": "Vanuatu Post",
+    "carrier_key": "vanuatu_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1982-07-16",
+    "carrier_url": "http://www.vanuatupost.vu/"
+  },
+  "VA": {
+    "country_name": "Vatican",
+    "carrier_name": "Vatican post",
+    "carrier_key": "vatican_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1929-06-01",
+    "carrier_url": "http://www.vaticanstate.va/EN/Services/Philatelic_and_Numismatic_Office/"
+  },
+  "VE": {
+    "country_name": "Venezuela",
+    "carrier_name": "IPOSTEL – Instituto Postal Telegráfico de Venezuela",
+    "carrier_key": "venezuela_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1880-01-01",
+    "carrier_url": "http://www.ipostel.gob.ve/"
+  },
+  "VN": {
+    "country_name": "Vietnam",
+    "carrier_name": "vnpt",
+    "carrier_key": "vietnam_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1951-10-20",
+    "carrier_url": "http://www.vnpt.com.vn/"
+  },
+  "YE": {
+    "country_name": "Yemen",
+    "carrier_name": "Yemen Post",
+    "carrier_key": "yemen_post",
+    "contribution_units": "0.5",
+    "date_of_entry_in_upu": "1930-01-01",
+    "carrier_url": "http://www.post.ye/"
+  },
+  "ZM": {
+    "country_name": "Zambia",
+    "carrier_name": "Zambia Postal Services Corporation (ZAMPOST)",
+    "carrier_key": "zambia_post",
+    "contribution_units": "1",
+    "date_of_entry_in_upu": "1967-03-22",
+    "carrier_url": "http://www.zampost.com.zm/"
+  },
+  "ZW": {
+    "country_name": "Zimbabwe",
+    "carrier_name": "Zimpost – Zimbabwe Posts",
+    "carrier_key": "zimbabwe_post",
+    "contribution_units": "3",
+    "date_of_entry_in_upu": "1981-07-31",
+    "carrier_url": "http://www.zimpost.co.zw/"
+  }
+}
