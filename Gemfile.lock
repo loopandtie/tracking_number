@@ -18,7 +18,7 @@ GEM
     builder (3.2.2)
     docile (1.1.5)
     i18n (0.7.0)
-    json (1.8.2)
+    json (1.8.5)
     minitest (5.5.1)
     multi_json (1.11.0)
     rake (10.4.2)
