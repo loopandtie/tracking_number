@@ -91,6 +91,7 @@ module TrackingNumber
   end
 
   class UPSMailInnovationsInternational < UPS
+    # http://www.mailinnovations.com/pdfs/2015_UPS_Guide_to_Labeling_Supplement.pdf
     SEARCH_PATTERN = /(\b8\s*(\w\s*){17,17}\b)/
     VERIFY_PATTERN = /^(8\s*\w{17,17})$/
 
