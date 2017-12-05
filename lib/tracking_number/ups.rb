@@ -90,6 +90,50 @@ module TrackingNumber
     end
   end
 
+  class UPSMailInnovationsInternational < UPS
+    SEARCH_PATTERN = /(\b8\s*(\w\s*){17,17}\b)/
+    VERIFY_PATTERN = /^(8\s*\w{17,17})$/
+
+    def matches
+       self.tracking_number.scan(VERIFY_PATTERN).flatten
+    end
+
+    def valid_checksum?
+      sequence = tracking_number.slice(0...17)
+      check_digit = decode[:check_digit]
+
+      total = 0
+      sequence.chars.each_with_index do |c, i|
+        x = if c[/[0-9]/] # numeric
+          c.to_i
+        else
+          (c[0].ord - 3) % 10
+        end
+        x *= 2 if i.odd?
+        total += x
+      end
+
+      check = (total % 10)
+      check = (10 - check) unless (check.zero?)
+
+      return (check.to_i == check_digit.to_i)
+    end
+
+    def decode
+      {
+        :shipping_application_id => self.tracking_number.to_s.slice(0...1),
+        :account_number => self.tracking_number.to_s.slice(1...7),
+        :day_of_pickup => self.tracking_number.to_s.slice(7...10),
+        :package_identifier => self.tracking_number.to_s.slice(10...17),
+        :check_digit => self.tracking_number.to_s.slice(17, 18)
+      }
+    end
+
+    def service_type
+      "UPS Mail Innovations International"
+    end
+  end
+
   class UPSTest < UPS
     # Easypost UPS test numbers as described here:
     # https://www.easypost.com/docs/api#tracking (scroll down a bit).
