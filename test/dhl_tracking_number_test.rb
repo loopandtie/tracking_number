@@ -7,12 +7,26 @@ class DHLTrackingNumberTest < Minitest::Test
         should_be_valid_number(valid_number, TrackingNumber::DHLExpressAir, :dhl)
       end
 
-      should "fail on check digit changes on #{valid_number}" do
-        should_fail_on_check_digit_changes(valid_number)
-      end
+      # Can no longer use this test because an 11 digit number that fails mod7 checksum will
+      # now be DHLEcommerce
+      #should "fail on check digit changes on #{valid_number}" do
+      #  should_fail_on_check_digit_changes(valid_number)
+      #end
 
       should "detect #{valid_number} regardless of spacing" do
         should_detect_number_variants(valid_number, TrackingNumber::DHLExpressAir)
+      end
+    end
+  end
+
+  context "DHLEcommerce tracking number" do
+    ["46127012031", "57127019688"].each do |valid_number|
+      should "return dhl for #{valid_number}" do
+        should_be_valid_number(valid_number, TrackingNumber::DHLEcommerce, :dhl)
+      end
+
+      should "detect #{valid_number} regardless of spacing" do
+        should_detect_number_variants(valid_number, TrackingNumber::DHLEcommerce)
       end
     end
   end
