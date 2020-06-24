@@ -27,8 +27,8 @@ module TrackingNumber
   # This is only partially correct, as there are definitely more possibilities for this
   # tracking number type
   class DHLEcommerce < DHL
-    SEARCH_PATTERN = /(\b([0-9]\s*){11,11}\b)/
-    VERIFY_PATTERN = /^([0-9]{10,10})([0-9])$/
+    SEARCH_PATTERN = /(\b([0-9]\s*){10,10}([0-9]\s*)?\b)/
+    VERIFY_PATTERN = /^([0-9]{10,10})([0-9])?$/
 
     def matches
       self.tracking_number.scan(VERIFY_PATTERN).flatten
