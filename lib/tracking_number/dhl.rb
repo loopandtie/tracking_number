@@ -33,7 +33,7 @@ module TrackingNumber
   # than "-PKG1", but we'll support "-PKG[#]" just in case
   class DHLEcommerce < DHL
     SEARCH_PATTERN = /(\b([0-9]\s*){10,10}([0-9]\s*)?([0-9]\s*)?\b)(-PKG\d)?/
-    VERIFY_PATTERN = /^([0-9]{10,10})([0-9]){0,2}(-PKG1)?$/
+    VERIFY_PATTERN = /^([0-9]{10,10})([0-9]){0,2}(-PKG\d)?$/
 
     def matches
       self.tracking_number.scan(VERIFY_PATTERN).flatten
