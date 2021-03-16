@@ -26,9 +26,14 @@ module TrackingNumber
   # and don't pass the mod7 checksum
   # This is only partially correct, as there are definitely more possibilities for this
   # tracking number type
+  # ******************
+  # The above no longer seems to be true. We have now encountered 12-digit
+  # numbers with an added component that looks like "-PKG1". Apparently, it is
+  # still a valid DHLEcommerce number. So far we haven't seen anything other
+  # than "-PKG1", but we'll support "-PKG[#]" just in case
   class DHLEcommerce < DHL
-    SEARCH_PATTERN = /(\b([0-9]\s*){10,10}([0-9]\s*)?\b)/
-    VERIFY_PATTERN = /^([0-9]{10,10})([0-9])?$/
+    SEARCH_PATTERN = /(\b([0-9]\s*){10,10}([0-9]\s*)?([0-9]\s*)?\b)(-PKG\d)?/
+    VERIFY_PATTERN = /^([0-9]{10,10})([0-9]){0,2}(-PKG1)?$/
 
     def matches
       self.tracking_number.scan(VERIFY_PATTERN).flatten

@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+$LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'test_helper'
 
 class DHLTrackingNumberTest < Minitest::Test
@@ -31,6 +33,16 @@ class DHLTrackingNumberTest < Minitest::Test
     end
 
     ["8130857374", "9131015119"].each do |valid_number|
+      should "return dhl for #{valid_number}" do
+        should_be_valid_number(valid_number, TrackingNumber::DHLEcommerce, :dhl)
+      end
+
+      should "detect #{valid_number} regardless of spacing" do
+        should_detect_number_variants(valid_number, TrackingNumber::DHLEcommerce)
+      end
+    end
+
+    ["100175845662-PKG1", "55160065671-PKG1"].each do |valid_number|
       should "return dhl for #{valid_number}" do
         should_be_valid_number(valid_number, TrackingNumber::DHLEcommerce, :dhl)
       end
