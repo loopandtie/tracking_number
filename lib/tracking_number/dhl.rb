@@ -32,7 +32,7 @@ module TrackingNumber
   # still a valid DHLEcommerce number. So far we haven't seen anything other
   # than "-PKG1", but we'll support "-PKG[#]" just in case
   class DHLEcommerce < DHL
-    SEARCH_PATTERN = /(\b([0-9]\s*){10,10}([0-9]\s*)?([0-9]\s*)?\b)(-PKG\d)?/
+    SEARCH_PATTERN = /(\b([0-9]\s*){10,10}([0-9]\s*)?([0-9]\s*)?(-PKG\d)?\b)/
     VERIFY_PATTERN = /^([0-9]{10,10})([0-9]){0,2}(-PKG\d)?$/
 
     def matches
