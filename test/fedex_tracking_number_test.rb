@@ -8,7 +8,7 @@ class FedExTrackingNumberTest < Minitest::Test
       end
 
       should "fail on check digit changes on #{valid_number}" do
-        should_fail_on_check_digit_changes(valid_number)
+        should_fail_on_check_digit_changes(valid_number, TrackingNumber::FedExExpress)
       end
 
       should "detect #{valid_number} regardless of spacing" do

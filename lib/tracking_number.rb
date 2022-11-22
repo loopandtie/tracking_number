@@ -51,7 +51,21 @@ module TrackingNumber
     return tn
   end
 
-  def self.new(tracking_number)
-    self.detect(tracking_number)
+  def self.detect_all(tracking_number)
+    tn = nil
+    results = []
+    for test_klass in (TYPES+[Unknown])
+      tn = test_klass.new(tracking_number)
+      results << tn if tn.valid?
+    end
+    return results
+  end
+
+  def self.new(tracking_number, all: false)
+    if all
+      self.detect_all(tracking_number)
+    else
+      self.detect(tracking_number)
+    end
   end
 end

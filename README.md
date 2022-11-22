@@ -46,6 +46,13 @@ class Shipment < ActiveRecord::Base
 end
 ```
 
+## Testing
+
+Run tests with
+```
+ruby -I"test" ./test/test_file.rb
+```
+
 ## Contributing to tracking_number
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet

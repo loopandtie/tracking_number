@@ -44,12 +44,24 @@ class Minitest::Test
     assert t.valid?
   end
 
-  def should_fail_on_check_digit_changes(valid_number)
+  def should_include_valid_number(valid_number, type, carrier)
+    numbers = TrackingNumber.new(valid_number, all: true)
+    numbers.each do |number|
+      next if number.class != type
+      assert_equal type, number.class
+      assert_equal carrier, number.carrier
+      assert number.valid?
+    end
+  end
+
+  def should_fail_on_check_digit_changes(valid_number, type = nil)
     digits = valid_number.chars.to_a
     last = digits.pop.to_i
     digits << (last  < 2 ? last + 3 : last - 3).to_s
     invalid_number = digits.join
     t = TrackingNumber.new(invalid_number)
-    assert !t.valid?, "#{invalid_number} reported as a valid #{t.class}, and it shouldn't be"
+    if type.nil? || t.class == type
+      assert !t.valid?, "#{invalid_number} reported as a valid #{t.class}, and it shouldn't be"
+    end
   end
 end
