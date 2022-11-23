@@ -58,7 +58,7 @@ module TrackingNumber
       tn = test_klass.new(tracking_number)
       results << tn if tn.valid?
     end
-    return results
+    return results.empty? ? results << tn : results
   end
 
   def self.new(tracking_number, all: false)
