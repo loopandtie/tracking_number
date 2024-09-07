@@ -11,6 +11,7 @@ require 'tracking_number/dhl'
 require 'tracking_number/ontrac'
 require 'tracking_number/dpd'
 require 'tracking_number/gls'
+require 'tracking_number/amazon'
 
 if defined?(ActiveModel::EachValidator)
   require 'tracking_number/active_model_validator'
@@ -35,7 +36,8 @@ module TrackingNumber
     DHLEcommerce,
     OnTrac,
     GLS,
-    DPD
+    DPD,
+    Amazon
   ]
 
   def self.search(body)
