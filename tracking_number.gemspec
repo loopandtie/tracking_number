@@ -29,4 +29,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency('simplecov')
   s.add_development_dependency('activemodel')
   s.add_development_dependency('minitest','~> 5.5')
+  s.add_development_dependency('bigdecimal','= 3.1.1')
 end

@@ -49,6 +49,16 @@ class DHLTrackingNumberTest < Minitest::Test
         should_detect_number_variants(valid_number, TrackingNumber::DHLEcommerce)
       end
     end
+
+    ["7560887424001", "658559946587001", "931569448305001"].each do |valid_number|
+      should "return dhl for #{valid_number}" do
+        should_be_valid_number(valid_number, TrackingNumber::DHLEcommerce, :dhl)
+      end
+
+      should "detect #{valid_number} regardless of spacing" do
+        should_detect_number_variants(valid_number, TrackingNumber::DHLEcommerce)
+      end
+    end
   end
 
   context "DHLExpress tracking numbers" do

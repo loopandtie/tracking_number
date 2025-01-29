@@ -31,9 +31,16 @@ module TrackingNumber
   # numbers with an added component that looks like "-PKG1". Apparently, it is
   # still a valid DHLEcommerce number. So far we haven't seen anything other
   # than "-PKG1", but we'll support "-PKG[#]" just in case
+  # ******************
+  # Lies again. We found some numbers that look like 931569448305001, 658559946587001,
+  # 41560887378001, and 7560887424001. 13-15 digits, all ending in 001, and appear to be segmented:
+  # [931] [569448305] [001]
+  # [658] [559946587] [001]
+  # [ 41] [560887378] [001]
+  # [  7] [560887424] [001]
   class DHLEcommerce < DHL
-    SEARCH_PATTERN = /(\b([0-9]\s*){10,10}([0-9]\s*)?([0-9]\s*)?(-PKG\d)?\b)/
-    VERIFY_PATTERN = /^([0-9]{10,10})([0-9]){0,2}(-PKG\d)?$/
+    SEARCH_PATTERN = /(\b([0-9]\s*){10}([0-9]\s*)?([0-9]\s*)?(-PKG\d)?((\d){10,12}|(001))?\b)/
+    VERIFY_PATTERN = /^([0-9]{10,10})([0-9]){0,2}(-PKG\d)?((\d){10,12}|(001))?\b$/
 
     def matches
       self.tracking_number.scan(VERIFY_PATTERN).flatten
