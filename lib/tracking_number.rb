@@ -13,6 +13,7 @@ require 'tracking_number/dpd'
 require 'tracking_number/gls'
 require 'tracking_number/amazon'
 require 'tracking_number/veho'
+require 'tracking_number/uniuni'
 
 if defined?(ActiveModel::EachValidator)
   require 'tracking_number/active_model_validator'
@@ -39,7 +40,8 @@ module TrackingNumber
     GLS,
     DPD,
     Amazon,
-    Veho
+    Veho,
+    Uniuni
   ]
 
   def self.search(body)
