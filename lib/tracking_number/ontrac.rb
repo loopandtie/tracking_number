@@ -1,7 +1,7 @@
 module TrackingNumber
   class OnTrac < Base
-    SEARCH_PATTERN = /(\b(C\s*)([0-9]\s*){14,14}\b)/
-    VERIFY_PATTERN = /^(C[0-9]{13,13})([0-9])$/
+    SEARCH_PATTERN = /(\b([CD]\s*)([0-9]\s*){14,14}\b)/
+    VERIFY_PATTERN = /^([CD][0-9]{13})([0-9])$/
     def carrier
       :ontrac
     end
