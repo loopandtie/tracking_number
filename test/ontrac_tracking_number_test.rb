@@ -2,7 +2,7 @@ require 'test_helper'
 
 class OnTracTrackingNumberTest < Minitest::Test
   context "an OnTrac tracking number" do
-    ["C11031500001879", "C10999911320231"].each do |valid_number|
+    ["C11031500001879", "C10999911320231", "D11031500001878", "D10999911320230"].each do |valid_number|
       should "return ontrac for #{valid_number}" do
         should_be_valid_number(valid_number, TrackingNumber::OnTrac, :ontrac)
       end
