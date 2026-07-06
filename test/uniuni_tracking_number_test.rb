@@ -5,6 +5,9 @@ class UniuniTrackingNumberTest < Minitest::Test
     {
       "UUS0570455416253" => "UUS prefix",
       "UUS0460452985903" => "UUS prefix",
+      "UUS123"           => "UUS prefix (short)",
+      "UUS12345678901234567890" => "UUS prefix (long)",
+      "UUSABC123DEF456"  => "UUS prefix (alphanumeric)",
       "UNI12345678901"   => "UNI prefix",
       "UNI123456789012"  => "UNI prefix",
       "UNIA302278352YQ"  => "UNIA prefix",

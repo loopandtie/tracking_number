@@ -1,7 +1,7 @@
 module TrackingNumber
   class Uniuni < Base
     SEARCH_PATTERN = [
-      /(\bUUS\d{13}\b)/,
+      /(\bUUS\w+\b)/,
       /(\bUNI\d{11,14}\b)/,
       /(\bUNIA\d{9}YQ\b)/,
       /(\bJY\d{15}\b)/,
@@ -9,7 +9,7 @@ module TrackingNumber
       /(\bAQ\d{8}CN\b)/
     ]
 
-    VERIFY_PATTERN = /^(UUS\d{13}|UNI\d{11,14}|UNIA\d{9}YQ|JY\d{15}|AS\d{8}CN|AQ\d{8}CN)$/
+    VERIFY_PATTERN = /^(UUS\w+|UNI\d{11,14}|UNIA\d{9}YQ|JY\d{15}|AS\d{8}CN|AQ\d{8}CN)$/
 
     def carrier
       :uniuni
