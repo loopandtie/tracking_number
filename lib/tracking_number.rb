@@ -14,6 +14,7 @@ require 'tracking_number/gls'
 require 'tracking_number/amazon'
 require 'tracking_number/veho'
 require 'tracking_number/uniuni'
+require 'tracking_number/apc'
 
 if defined?(ActiveModel::EachValidator)
   require 'tracking_number/active_model_validator'
@@ -41,7 +42,10 @@ module TrackingNumber
     DPD,
     Amazon,
     Veho,
-    Uniuni
+    Uniuni,
+    # APC overlaps with certain DHLEcommerce tracking formats, so it needs to be loaded
+    # last to have those numbers properly go to DHL
+    APC
   ]
 
   def self.search(body)
