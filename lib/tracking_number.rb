@@ -40,6 +40,7 @@ module TrackingNumber
     DHLExpressAir,
     DHLEcommerce,
     OnTrac,
+    OnTrac1LSCY,
     GLS,
     DPD,
     Amazon,

@@ -31,4 +31,23 @@ module TrackingNumber
       return (check.to_i == check_digit.to_i)
     end
   end
+
+  # Dropshipper OnTrac numbers that don't follow the classic C/D format
+  class OnTrac1LSCY < Base
+    # search runs against raw text, before Base upcases
+    SEARCH_PATTERN = /(\b1LSCY[A-Z0-9]{6,20}\b)/i
+    VERIFY_PATTERN = /^1LSCY[A-Z0-9]{6,20}$/
+
+    def carrier
+      :ontrac
+    end
+
+    def matches
+      self.tracking_number.gsub(/\s+/, "").scan(VERIFY_PATTERN).flatten
+    end
+
+    def valid_checksum?
+      true
+    end
+  end
 end
