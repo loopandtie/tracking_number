@@ -15,6 +15,7 @@ require 'tracking_number/amazon'
 require 'tracking_number/veho'
 require 'tracking_number/uniuni'
 require 'tracking_number/gofo'
+require 'tracking_number/speedx'
 require 'tracking_number/apc'
 
 if defined?(ActiveModel::EachValidator)
@@ -45,6 +46,7 @@ module TrackingNumber
     Veho,
     Uniuni,
     Gofo,
+    Speedx,
     # APC overlaps with certain DHLEcommerce tracking formats, so it needs to be loaded
     # last to have those numbers properly go to DHL
     APC
